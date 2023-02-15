@@ -10,7 +10,7 @@ def choice():
 
 def display(choice):
   """Display the choice"""
-  return f'{choice["name"]}, a {choice["description"]} from {choice["country"]} with {choice["follower_count"]}'
+  return f'{choice["name"]}, a {choice["description"]} from {choice["country"]}'
   
 
 def compare(user_choice):
