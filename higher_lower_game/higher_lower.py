@@ -1,7 +1,7 @@
 from art import logo, vs
 from game_data import data
 import random
-from replit import clear
+#from replit import clear
 
 
 def choice():
@@ -30,7 +30,7 @@ choice_A = choice()
 choice_B = choice()
 
 while not is_game_over:
-  clear()
+  #clear()
   print(logo)
   if score > 0:
     print(f"You're right! Current score is {score}!")
