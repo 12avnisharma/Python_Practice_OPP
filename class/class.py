@@ -3,9 +3,9 @@ class User:
         self.id = id
         self.username = username
     def follow (self, followers, following):
+
         
-        
-    pass
+
 user_1 = User("001", "Avni")
 
 print(user_1.id)
